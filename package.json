@@ -1,11 +1,10 @@
 {
-    "scripts": {
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build",
-      …
-  }
   "homepage": "https://adijot.github.io/todolist/",
-  "name": "firstapp",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+  },
+  "name": "todolist",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
